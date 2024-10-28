@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mon Panier d'Achat  &#x1F6D2;</h1>
+    <div class="cart">
+        <div class="cart-item" data-price="20">
+            <img src="cargo.jpg" alt="Article 1" class="item-image" />
+            <h2>Cargo Pants</h2>
+            <div class="quantity-controls">
+                <button class="decrement">-</button>
+                <span class="quantity">1</span>
+                <button class="increment">+</button>
+            </div>
+            <button class="like-btn">&#x2764;</button>
+            <button class="remove-btn">Supprimer</button>
+            <span class="item-price">Prix : 20 €</span>
+        </div>
+        <div class="cart-item" data-price="15">
+            <img src="hoodie.jpeg" alt="Article 2" class="item-image" />
+            <h2>Hoodie</h2>
+            <div class="quantity-controls">
+                <button class="decrement">-</button>
+                <span class="quantity">1</span>
+                <button class="increment">+</button>
+            </div>
+            <button class="like-btn">&#x2764;</button>
+            <button class="remove-btn">Supprimer</button>
+            <span class="item-price">Prix : 15 €</span>
+        </div>
+        <h2 id="total-price">Prix Total : 35 €</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
